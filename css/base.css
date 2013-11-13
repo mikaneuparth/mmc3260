@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color:#ff4a00;
+    font-size: 40px;
+}
+
+h2 {
+    color: #0021a5;
+    font-size: 22px;
+}
+
+p {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+nav {
+    border: 1px solid red;
+    float: left;
+    max-width: 170px;
+    min-width: 100px;
+    text-transform: uppercase;
+    width: 30%;
+}
+
+#content {
+    background-color: gray;
+    border: 1px solid red;
+    margin-left: 35%;
+    width: 65%;
+}
