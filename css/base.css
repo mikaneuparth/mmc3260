@@ -18,11 +18,17 @@ p {
     line-height: 24px;
 }
 
+img {
+    border: 5px solid #cccccc;
+    margin: 0 5% 0 5%;
+    padding: 1%;
+    width: 90%;
+}
+
 nav {
     border: 1px solid red;
     float: left;
-    max-width: 170px;
-    min-width: 100px;
+    min-width: 130px;
     text-transform: uppercase;
     width: 30%;
 }
@@ -32,4 +38,38 @@ nav {
     border: 1px solid red;
     margin-left: 35%;
     width: 65%;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 3%;
+    }
+    
+    h1, h2 {
+        text-align: center;
+    }
+    
+    nav {
+        border: 0;
+        width: 100%;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    #content {
+        clear: left;
+        margin-left: 0;
+        width: 100%;
+    }
+    
 }
